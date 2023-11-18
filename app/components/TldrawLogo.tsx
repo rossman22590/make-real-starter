@@ -3,11 +3,11 @@ import { useBreakpoint } from '@tldraw/tldraw'
 export function TldrawLogo() {
 	const breakpoint = useBreakpoint()
 	return (
-		<a
-			className={`lockup__link ${breakpoint < 5 ? 'lockup__link__mobile' : ''}`}
+<a
+			className={`tldrawLogo ${breakpoint < 5 ? 'tldrawLogo__mobile' : ''}`}
 			href="https://myapps.ai"
 		>
-			<img
+						<img
 				alt="tldraw logo"
 				className="lockup"
 				src="https://img.mytsi.org/i/YJET169.png"
