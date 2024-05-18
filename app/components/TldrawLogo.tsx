@@ -10,7 +10,7 @@ export function TldrawLogo() {
 						<img
 				alt="tldraw logo"
 				className="lockup"
-				src="https://img.mytsi.org/i/YJET169.png"
+				src="https://img.mytsi.org/i/zjbS568.png"
 				style={{ padding: 8, height: 40 }}
 			/>
 		</a>

@@ -55,7 +55,7 @@ export type GPT4VMessage = {
 }
 
 export type GPT4VCompletionRequest = {
-	model: 'gpt-4-vision-preview'
+	model: 'gpt-4o'
 	messages: GPT4VMessage[]
 	functions?: unknown[] | undefined
 	function_call?: unknown | undefined

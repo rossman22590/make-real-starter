@@ -50,7 +50,7 @@ export async function makeReal(editor: Editor) {
 		// make a request to openai. `fetchFromOpenAi` is a next.js server action,
 		// so our api key is hidden.
 		const openAiResponse = await fetchFromOpenAi(apiKeyFromDangerousApiKeyInput, {
-			model: 'gpt-4-vision-preview',
+			model: 'gpt-4o',
 			max_tokens: 4096,
 			temperature: 0,
 			messages: prompt,
